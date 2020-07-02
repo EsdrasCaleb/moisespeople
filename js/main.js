@@ -78,13 +78,15 @@ $('a[href*="#"]')
 
 
     //  member carusel
-
+/*
     $('.active-member-carousel').owlCarousel({
         items:1,
-        loop:true,
+        loop:false,
         margin: 30,
         dots: true,
     });
+
+    */
 
     $('.next-trigger').click(function() {
         $(".active-member-carousel").trigger('next.owl.carousel');
